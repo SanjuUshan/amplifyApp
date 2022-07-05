@@ -10,11 +10,16 @@ function App() {
 
           <div class="container">
             <div class="login">
-              <h1>Login</h1>
+              <h1>SIGN UP</h1>
+              <p>Fill all the required details...</p>
               <form method="post">
-                <input type="text" name="u" placeholder="Username" required="required" />
+                <input type="text" name="f" placeholder="First name" required="required" />
+                
+            
+                <input type="email" name="em" placeholder="E-mail" required="required" />
                 <input type="password" name="p" placeholder="Password" required="required" />
-                <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+                <button type="submit" class="btn btn-primary btn-block btn-large">Let me signup.</button>
+                <p>Already a user?<a href="https://www.w3schools.com">Login</a></p>
               </form>
             </div>
           </div>
